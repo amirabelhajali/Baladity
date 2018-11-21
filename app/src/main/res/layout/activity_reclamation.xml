@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tn.esprit.baladity.ReclamationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_marginTop="25dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Type reclamation"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_reclamation"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:entries="@array/array_reclamation"
+                style="@style/spinner_style"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Description"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+            <EditText
+                android:id="@+id/reclamation_description"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="description.."
+                android:inputType="text|textMultiLine"
+                android:gravity="top"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+             <Button
+                android:layout_width="100dp"
+
+                android:layout_height="50dp"
+                android:text="Gallery"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_gallery"
+                android:textColor="#ffff"
+                android:background="@drawable/selector_xml_btn_yellow"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Image"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+            <ImageView
+                android:id="@+id/image_reclamation"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="150dp"
+                android:layout_height="120dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text="Envoyer"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_envoyer_reclamation"
+                android:textColor="#ffff"
+                android:background="@drawable/selector_xml_btn_yellow"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

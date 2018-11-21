@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".DemandesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Nom"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:hint="nom"
+                android:inputType="text"
+
+                android:id="@+id/certif_nom"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Prenom"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+
+            <EditText
+                android:inputType="text"
+
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:hint="prenom"
+                android:id="@+id/certif_prenom"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Date de naissance"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:hint="jj/mm/aaaa"
+                android:id="@+id/certif_dn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="prenom pere"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:hint="prenom pere"
+                android:inputType="text"
+
+                android:id="@+id/certif_prenom_pere"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#465e9e"
+
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="prenom mere"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:hint="prenom mere"
+                android:inputType="text"
+
+                android:id="@+id/certif_prenom_mere"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Envoyer"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_envoyer_certif"
+                android:background="@drawable/selector_xml_btn_yellow"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</FrameLayout>

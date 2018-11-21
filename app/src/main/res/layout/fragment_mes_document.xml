@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="tn.esprit.baladity.Drawer.MesDocumentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Mes documents"
+        android:textStyle="bold|italic"
+        android:textSize="37sp"
+        android:textColor="#e2001a"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ListView
+        android:layout_width="match_parent"
+
+        android:id="@+id/listMesdoc"
+        android:layout_height="wrap_content">
+    </ListView>
+    </LinearLayout>
+</FrameLayout>

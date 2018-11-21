@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "685231135896",
+    "firebase_url": "https://baladity-4982e.firebaseio.com",
+    "project_id": "baladity-4982e",
+    "storage_bucket": "baladity-4982e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685231135896:android:1bfdaf81a110cffd",
+        "android_client_info": {
+          "package_name": "tn.esprit.baladity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685231135896-ce9bml921j9n5sa73f32en1uoqki8s0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.esprit.baladity",
+            "certificate_hash": "b286e19efaf70c7612e8390b20ecfd7f247f5b22"
+          }
+        },
+        {
+          "client_id": "685231135896-jpv21unihao5lm2rl2nds2aih2ogc2id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzoaDgLWOqRAg4XBoolqDvIDK8wvb3QhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685231135896-jpv21unihao5lm2rl2nds2aih2ogc2id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

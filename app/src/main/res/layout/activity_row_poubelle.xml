@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/tools"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="5dp"
+        card_view:contentPadding="5dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardMaxElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:textColor="#e2001a"
+                    android:id="@+id/txt_time"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    />
+                <TextView
+                    android:id="@+id/txt_adresse"
+                    android:layout_width="100dp"
+                    android:textColor="#465e9e"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/lite_list_row_map"
+                android:layout_width="240dp"
+                android:layout_height="190dp"
+                map:liteMode="true"
+                map:mapType="none" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
